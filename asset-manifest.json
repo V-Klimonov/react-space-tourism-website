@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-space-tourism-website/static/css/main.073c9b0a.css",
+    "main.js": "/react-space-tourism-website/static/js/main.704b1d19.js",
+    "index.html": "/react-space-tourism-website/index.html",
+    "main.073c9b0a.css.map": "/react-space-tourism-website/static/css/main.073c9b0a.css.map",
+    "main.704b1d19.js.map": "/react-space-tourism-website/static/js/main.704b1d19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.704b1d19.js"
+  ]
+}
