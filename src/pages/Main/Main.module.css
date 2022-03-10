@@ -1,0 +1,73 @@
+.wrapper {
+  background: url(/src/assets/home/background-home-desktop.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 85vh;
+}
+
+.textBox {
+  width: 32%;
+}
+
+.exploreButton {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 276px;
+  height: 276px;
+  color: #0b0d17;
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.exploreButton:hover {
+  box-shadow: 0 0px 0px 50px #0b0d1733;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    background: url(/src/assets/home/background-home-tablet.jpg);
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    background: url(/src/assets/home/background-home-mobile.jpg);
+  }
+  .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+  }
+
+  .textBox {
+    text-align: center;
+    width: 85%;
+    margin-bottom: 30px;
+    margin-top: 25%;
+  }
+  .exploreButton {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+  }
+
+  .exploreButton:hover {
+    box-shadow: 0 0px 0px 20px #0b0d1733;
+  }
+}

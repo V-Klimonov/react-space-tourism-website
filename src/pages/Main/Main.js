@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Main.module.css";
-import Header from "../components/Header/Header";
+import NavbarMenu from "../../components/NavbarMenu/NavbarMenu";
 
 const Main = () => {
   return (
     <div className={styles.wrapper}>
-      <Header></Header>
+      
       <div className={styles.inner}>
         <div className={styles.textBox}>
           <h5>So, you want to travel to</h5>
@@ -18,11 +18,9 @@ const Main = () => {
             world experience!
           </p>
         </div>
-        <div className={styles.buttonExpBox}>
-          <Link to="destination" className={styles.exploreButton}>
-            Explore
-          </Link>
-        </div>
+        <Link to="destination" className={styles.exploreButton}>
+          <span>Explore</span>
+        </Link>
       </div>
     </div>
   );

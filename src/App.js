@@ -1,14 +1,15 @@
-import styles from './App.module.css';
-import Main from './pages/Main';
+import Main from './pages/Main/Main';
 import { Routes, Route } from 'react-router-dom';
-import Destination from './pages/Destination';
-import Crew from './pages/Crew';
-import Technology from './pages/Technology';
+import Destination from './pages/Destination/Destination';
+import Crew from './pages/Crew/Crew';
+import Technology from './pages/Technology/Technology';
+import NavbarMenu from "./components/NavbarMenu/NavbarMenu";
 
 
 const App = () => {
   return (
-    <div className={styles.wrapper}>
+    <div>
+      <NavbarMenu></NavbarMenu>
       <Routes>
         <Route path="/" element={<Main />}></Route>
         <Route path="/destination" element={<Destination />}></Route>
